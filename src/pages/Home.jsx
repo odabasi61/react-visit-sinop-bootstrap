@@ -3,7 +3,7 @@ import Geography from "../components/Geography";
 import Culture from "../components/Culture";
 
 const Home = () => {
-  return <div name='home'>
+  return <div>
     <History />
     <Geography />
     <Culture />

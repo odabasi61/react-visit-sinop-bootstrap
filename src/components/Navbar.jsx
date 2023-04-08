@@ -17,17 +17,17 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-white" href="history">
+              <a className="nav-link text-white" href="#history">
                 History
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-white" href="geography">
+              <a className="nav-link text-white" href="#geography">
                 Geography
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-white" href="culture">
+              <a className="nav-link text-white" href="#culture">
                 Culture
               </a>
             </li>
@@ -75,17 +75,17 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link text-black" href="history">
+                  <a className="nav-link text-black" href="#history">
                     History
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link text-black" href="geography">
+                  <a className="nav-link text-black" href="#geography">
                     Geography
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link text-black" href="culture">
+                  <a className="nav-link text-black" href="#culture">
                     Culture
                   </a>
                 </li>

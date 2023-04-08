@@ -1,7 +1,10 @@
+import { Link } from "react-router-dom";
 import sinop from "../assets/homepage/sinop.jpg";
 import data from "../helper/data";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
+
+
 
 const Header = () => {
   return (
@@ -46,14 +49,14 @@ const Header = () => {
               key={index}
               className="d-flex justify-content-center py-4"
             >
-              <div className="header-card py-3">
+              <Link to={item.url} className="header-card py-3 text-decoration-none">
                 <div className="d-flex justify-content-center py-2">
                   {item.icon}
                 </div>
                 <div className="d-flex justify-content-center">
-                  <span className="fw-bold">{item.info}</span>
+                  <span className="fw-bold text-black">{item.info}</span>
                 </div>
-              </div>
+              </Link>
             </SplideSlide>
           ))}
         </Splide>

@@ -1,70 +1,33 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <div>
       <nav className="navbar bg-body-tertiary fixed-top bg-black">
         <div className="container-fluid px-4">
-          <a className="navbar-brand text-white fs-4 fw-bold" href="#">
+          <Link to={'/'} className="navbar-brand text-white fs-4 fw-bold" href="#">
             Northern Star
-          </a>
+          </Link>
 
           <ul className="d-none d-lg-flex gap-4 align-items-center list-unstyled mb-0">
             <li className="nav-item">
-              <a className="nav-link text-white" aria-current="page" href="#">
+              <Link to={'/'} className="nav-link text-white" aria-current="page" href="#">
                 Home
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-white" href="#">
+              <a className="nav-link text-white" href="history">
                 History
               </a>
             </li>
-            <li className="nav-item dropdown">
-              <a
-                className="nav-link text-white dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Tourism
-              </a>
-              <ul className="dropdown-menu">
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Sea Tourism
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Culture Tourism
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Faith Tourism
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Cave Tourism
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Plateau Tourism
-                  </a>
-                </li>
-              </ul>
-            </li>
             <li className="nav-item">
-              <a className="nav-link text-white" href="#">
+              <a className="nav-link text-white" href="geography">
                 Geography
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-white" href="#">
+              <a className="nav-link text-white" href="culture">
                 Culture
               </a>
             </li>
@@ -103,64 +66,26 @@ const Navbar = () => {
             <div className="offcanvas-body">
               <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li className="nav-item">
-                  <a
+                  <Link to={'/'}
                     className="nav-link text-black"
                     aria-current="page"
                     href="#"
                   >
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link text-black" href="#">
+                  <a className="nav-link text-black" href="history">
                     History
                   </a>
                 </li>
-                <li className="nav-item dropdown">
-                  <a
-                    className="nav-link text-black dropdown-toggle"
-                    href="#"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Tourism
-                  </a>
-                  <ul className="dropdown-menu">
-                    <li>
-                      <a className="dropdown-item" href="#">
-                        Sea Tourism
-                      </a>
-                    </li>
-                    <li>
-                      <a className="dropdown-item" href="#">
-                        Culture Tourism
-                      </a>
-                    </li>
-                    <li>
-                      <a className="dropdown-item" href="#">
-                        Faith Tourism
-                      </a>
-                    </li>
-                    <li>
-                      <a className="dropdown-item" href="#">
-                        Cave Tourism
-                      </a>
-                    </li>
-                    <li>
-                      <a className="dropdown-item" href="#">
-                        Plateau Tourism
-                      </a>
-                    </li>
-                  </ul>
-                </li>
                 <li className="nav-item">
-                  <a className="nav-link text-black" href="#">
+                  <a className="nav-link text-black" href="geography">
                     Geography
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link text-black" href="#">
+                  <a className="nav-link text-black" href="culture">
                     Culture
                   </a>
                 </li>

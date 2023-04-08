@@ -1,7 +1,13 @@
-import React from "react";
+import History from "../components/History";
+import Geography from "../components/Geography";
+import Culture from "../components/Culture";
 
 const Home = () => {
-  return <div></div>;
+  return <div name='home'>
+    <History />
+    <Geography />
+    <Culture />
+  </div>;
 };
 
 export default Home;

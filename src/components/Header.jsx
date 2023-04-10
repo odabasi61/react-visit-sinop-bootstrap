@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <div>
       <div className="header-img">
-        <img width="100%" src={sinop} alt="Sinop Hamsilos landscape" />
+        <img width="100%" src={sinop} alt="Sinop landscape" />
       </div>
       <div className="py-1 px-2 px-sm-3 px-md-4 px-lg-5 border-top border-bottom border-2 border-dark header-line">
         <Splide

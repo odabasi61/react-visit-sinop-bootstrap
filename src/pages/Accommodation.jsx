@@ -1,4 +1,6 @@
 import { accommodation } from "../helper/data";
+import { Splide, SplideSlide } from "@splidejs/react-splide";
+import "@splidejs/react-splide/css";
 
 const Accommodation = () => {
   return (
@@ -74,6 +76,57 @@ const Accommodation = () => {
             <img width="100%" src={accommodation[8]} alt="camp in Sinop" />
           </div>
         </div>
+      </div>
+
+      <div className="p-2 bg-white rounded-2 mt-4 py-4">
+      <Splide
+          options={{
+            breakpoints: {
+              700: {
+                perPage: 1,
+              },
+              1000: {
+                perPage: 2,
+              },
+              1300: {
+                perPage: 3,
+              },
+              1650: {
+                perPage: 4,
+              },
+              2000: {
+                perPage: 5,
+              },
+              2300: {
+                perPage: 6,
+              },
+              2650: {
+                perPage: 7,
+              },
+              2950: {
+                perPage: 8,
+              },
+              5000: {
+                perPage: 12,
+              },
+            },
+            arrows: true,
+            pagination: false,
+            drag: "free",
+            gap: "2rem",
+          }}
+        >
+          {accommodation.map((item, index) => (
+            <SplideSlide
+              key={index}
+              className="d-flex gap-4 justify-content-center"
+            >
+              <div className="accommodation-card">
+              <img src={item} alt="touristic accommodations" />
+              </div>
+            </SplideSlide>
+          ))}
+        </Splide>
       </div>
     </div>
   );

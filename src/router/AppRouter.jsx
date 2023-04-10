@@ -1,4 +1,3 @@
-import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
@@ -8,6 +7,10 @@ import Accommodation from "../pages/Accommodation";
 import Activities from "../pages/Activities";
 import Food from "../pages/Food";
 import Shopping from "../pages/Shopping";
+import About from "../pages/About";
+import Contact from "../pages/Contact";
+import Privacy from "../pages/Privacy";
+import Support from "../pages/Support";
 
 const AppRouter = () => {
   return (
@@ -21,6 +24,10 @@ const AppRouter = () => {
           <Route path="activities/" element={<Activities />} />
           <Route path="food/" element={<Food />} />
           <Route path="shopping/" element={<Shopping />} />
+          <Route path="about/" element={<About />} />
+          <Route path="contact/" element={<Contact />} />
+          <Route path="privacy/" element={<Privacy />} />
+          <Route path="support/" element={<Support />} />
         </Routes>
         <Footer />
       </BrowserRouter>

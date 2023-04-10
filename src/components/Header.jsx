@@ -4,15 +4,13 @@ import data from "../helper/data";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 
-
-
 const Header = () => {
   return (
     <div>
       <div className="header-img">
         <img width="100%" src={sinop} alt="Sinop Hamsilos landscape" />
       </div>
-      <div className="py-1 px-2 px-sm-3 px-md-4 px-lg-5 border-top border-bottom border-2 border-danger">
+      <div className="py-1 px-2 px-sm-3 px-md-4 px-lg-5 border-top border-bottom border-2 border-dark header-line">
         <Splide
           options={{
             breakpoints: {
@@ -49,7 +47,10 @@ const Header = () => {
               key={index}
               className="d-flex justify-content-center py-4"
             >
-              <Link to={item.url} className="header-card py-3 text-decoration-none">
+              <Link
+                to={item.url}
+                className="header-card py-3 text-decoration-none"
+              >
                 <div className="d-flex justify-content-center py-2">
                   {item.icon}
                 </div>

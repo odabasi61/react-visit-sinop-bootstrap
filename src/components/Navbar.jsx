@@ -6,13 +6,22 @@ const Navbar = () => {
     <div>
       <nav className="navbar bg-body-tertiary fixed-top bg-black">
         <div className="container-fluid px-4">
-          <Link to={'/'} className="navbar-brand text-white fs-4 fw-bold" href="#">
+          <Link
+            to={"/"}
+            className="navbar-brand text-white fs-4 fw-bold"
+            href="#"
+          >
             Northern Star
           </Link>
 
           <ul className="d-none d-lg-flex gap-4 align-items-center list-unstyled mb-0">
             <li className="nav-item">
-              <Link to={'/'} className="nav-link text-white" aria-current="page" href="#">
+              <Link
+                to={"/"}
+                className="nav-link text-white"
+                aria-current="page"
+                href="#"
+              >
                 Home
               </Link>
             </li>
@@ -66,7 +75,8 @@ const Navbar = () => {
             <div className="offcanvas-body">
               <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li className="nav-item">
-                  <Link to={'/'}
+                  <Link
+                    to={"/"}
                     className="nav-link text-black"
                     aria-current="page"
                     href="#"

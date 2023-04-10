@@ -6,17 +6,63 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 60px;
 }
 
 .header-card {
   width: 180px;
   background-color: gainsboro;
   transition: all 0.3s ease;
-  box-shadow: rgba(169, 5, 5, 0.35) 0px 5px 15px;
+  box-shadow: rgba(25, 135, 84) 0px 5px 15px;
 }
 
 .header-card:hover {
   transform: translateY(-3px);
+}
+
+.header-img img {
+  height: 800px;
+}
+
+body {
+  background-color: gainsboro;
+}
+
+.home-img {
+  box-shadow: rgba(11, 9, 9, 0.35) 0px 5px 15px;
+  padding: 0;
+}
+
+.footer-links {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  transition: all 0.3s ease-in;
+}
+
+.footer-links:hover {
+  color: dodgerblue;
+}
+
+.footer-icons {
+  color: white;
+  transition: all 0.3s ease-in;
+}
+
+.footer-icons:hover {
+  transform: scale(1.05);
+  color: dodgerblue;
+}
+
+.footer-arrow {
+  bottom: 70px;
+  right: 25px;
+}
+
+.food-img img {
+  object-fit: cover;
+  border-radius: 5px;
+  height: 300px;
 }
 
 @media only screen and (max-width: 1120px) {
@@ -33,17 +79,22 @@ html {
 
 @media only screen and (max-width: 800px) {
   .header-img img {
-    height: 300px;
+    height: 330px;
   }
 
   .header-card {
     width: 230px;
   }
+
+  .footer-arrow {
+    top: 60px;
+    right: 40px;
+  }
 }
 
 @media only screen and (max-width: 550px) {
   .header-img img {
-    height: 250px;
+    height: 270px;
   }
 
   .header-card {
@@ -53,7 +104,7 @@ html {
 
 @media only screen and (max-width: 430px) {
   .header-img img {
-    height: 200px;
+    height: 230px;
   }
 
   .header-card {

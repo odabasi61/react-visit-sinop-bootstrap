@@ -31,6 +31,11 @@ body {
 .home-img {
   box-shadow: rgba(11, 9, 9, 0.35) 0px 5px 15px;
   padding: 0;
+  margin: auto;
+}
+
+.home-img img {
+  max-height: 500px;
 }
 
 .footer-links {
@@ -63,6 +68,7 @@ body {
   object-fit: cover;
   border-radius: 5px;
   height: 300px;
+  width: 100%;
 }
 
 @media only screen and (max-width: 1120px) {
@@ -84,11 +90,6 @@ body {
 
   .header-card {
     width: 230px;
-  }
-
-  .footer-arrow {
-    top: 60px;
-    right: 40px;
   }
 }
 

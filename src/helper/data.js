@@ -34,6 +34,34 @@ import peskir2 from "../assets/shopping/peskir2.jpg";
 import peskir3 from "../assets/shopping/peskir3.jpg";
 import peskir4 from "../assets/shopping/peskir4.jpg";
 
+import hotel1 from "../assets/accommodation/otel1.jpg";
+import hotel2 from "../assets/accommodation/otel2.jpg";
+import hotel3 from "../assets/accommodation/otel3.jpg";
+import hotel4 from "../assets/accommodation/otel4.jpg";
+import bungalov1 from "../assets/accommodation/bungalo1.jpg";
+import bungalov2 from "../assets/accommodation/bungalo2.jpg";
+import bungalov3 from "../assets/accommodation/bungalo3.jpg";
+import bungalov4 from "../assets/accommodation/bungalo4.jpg";
+import camp1 from "../assets/accommodation/kamp1.jpg";
+import camp2 from "../assets/accommodation/kamp2.jpg";
+import camp3 from "../assets/accommodation/kamp3.jpeg";
+import camp4 from "../assets/accommodation/kamp4.jpg";
+
+export const accommodation = [
+  hotel1,
+  hotel2,
+  hotel3,
+  hotel4,
+  bungalov1,
+  bungalov2,
+  bungalov3,
+  bungalov4,
+  camp1,
+  camp2,
+  camp3,
+  camp4,
+];
+
 export const shopping = [
   {
     id: 1,
@@ -45,7 +73,7 @@ export const shopping = [
     id: 2,
     img: [ship1, ship2, ship3, ship4],
     name: "Model Ship",
-    desc: "This handicraft, which was started by two convicts in Sinop Prison in the 1950s, spread rapidly in the city center as a result of the prisoners' staying in Sinop after they were released from prison, continuing this art and teaching their apprentices how to make cotra. There are many people who are interested in this art in the city center. Kotras, which were initially offered as souvenirs to the visitors on the passenger ferries arriving at Sinop Port, became famous over time and began to be sent out of the city as souvenirs. Boats bought as gifts by domestic and foreign tourists coming to Sinop today have become the symbol of Sinop. In addition to Kotra making, which continues with traditional methods today, we see boat modeling, which is more up-to-date, requires technical knowledge and is worked on with a project, in this handicraft. Different types of trees are used in boat models (puller, tow, boat, galleon, gulet, yacht, fisherman, etc.), all details of which are produced with wood and handcraft. The most commonly used trees are walnut, hornbeam, beech, poplar, ash, maple, etc. Fishing line and nylon rope are used in boat equipment.",
+    desc: "This handicraft, which was started by two convicts in Sinop Prison in the 1950s, spread rapidly in the city center as a result of the prisoners' staying in Sinop after they were released from prison, continuing this art and teaching their apprentices how to make cotra. There are many people who are interested in this art in the city center. Kotras, which were initially offered as souvenirs to the visitors on the passenger ferries arriving at Sinop Port, became famous over time and began to be sent out of the city as souvenirs. Boats bought as gifts by domestic and foreign tourists coming to Sinop today have become the symbol of Sinop.",
   },
   {
     id: 3,

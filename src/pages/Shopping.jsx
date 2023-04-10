@@ -1,8 +1,57 @@
 import { shopping } from "../helper/data";
+import { Splide, SplideSlide } from "@splidejs/react-splide";
+import "@splidejs/react-splide/css";
 
 const Shopping = () => {
   return (
     <div id="food" className="p-2 p-md-3 p-lg-4 p-xl-5">
+      <div>
+        <h3 className="pb-4">Discover Sinop's traditional treasures</h3>
+        <p>
+          Sinop is a beautiful city located on the Black Sea coast of Turkey.
+          The city is famous for its rich cultural heritage, beautiful
+          landscapes, and delicious cuisine. In addition to its scenic beauty,
+          Sinop is also renowned for its traditional handicrafts, which are made
+          by skilled artisans using techniques that have been passed down from
+          generation to generation.
+        </p>
+        <p>
+          One of the most popular handicrafts in Sinop is the handmade knife.
+          These knives are made by local craftsmen using high-quality materials,
+          and they are renowned for their durability and sharpness. Whether
+          you're a collector or just looking for a useful tool, a handmade knife
+          from Sinop is an excellent choice.
+        </p>
+        <p>
+          Another popular handicraft in Sinop is the model ship. These
+          intricately crafted vessels are a tribute to the city's rich maritime
+          heritage. They come in a variety of sizes and designs, and they make
+          an excellent decoration for any home or office.
+        </p>
+        <p>
+          Çember, mahrama, and peşkir are also famous handicrafts in Sinop.
+          Çember is a traditional circular wooden frame that is used for
+          stretching fabric during weaving. Mahrama is a type of woven blanket
+          or rug, typically made from wool or cotton, while peşkir is a type of
+          hand towel that is used for drying off after a bath.
+        </p>
+        <p>
+          If you're planning a trip to Sinop, be sure to visit the local markets
+          and shops to discover these traditional handicrafts. These unique and
+          authentic items make excellent souvenirs and gifts for friends and
+          family back home. Not only will you be taking home a piece of Sinop's
+          rich culture, but you'll also be supporting local artisans and
+          preserving their traditional crafts for generations to come.
+        </p>
+        <p className="pb-4">
+          In conclusion, Sinop is a city with a rich cultural heritage, and its
+          traditional handicrafts are a testament to its vibrant history. From
+          handmade knives to model ships, and from çember to peşkir, visitors to
+          Sinop are advised to buy these unique and authentic items before they
+          leave. Not only are they beautiful and functional, but they also serve
+          as a reminder of the city's rich cultural legacy.
+        </p>
+      </div>
       <div className="d-flex flex-wrap gap-4 justify-content-center">
         {shopping.map((item, index) => (
           <div
@@ -10,74 +59,26 @@ const Shopping = () => {
             className="p-4 bg-white rounded-4 col-12 col-sm-10 col-md-5 col-xl-3"
           >
             <h4>{item.name}</h4>
-            <div className="food-img">
-              {/* {item.img.map((image, index) => (
-                <div>
-                  <img src={image} alt="" />
-                </div>
-              ))} */}
-              {/* <div id="carouselExampleIndicators" className="carousel slide">
-                <div className="carousel-indicators">
-                  <button
-                    type="button"
-                    data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide-to="0"
-                    className="active"
-                    aria-current="true"
-                    aria-label="Slide 1"
-                  ></button>
-                  <button
-                    type="button"
-                    data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide-to="1"
-                    aria-label="Slide 2"
-                  ></button>
-                  <button
-                    type="button"
-                    data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide-to="2"
-                    aria-label="Slide 3"
-                  ></button>
-                  <button
-                    type="button"
-                    data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide-to="3"
-                    aria-label="Slide 4"
-                  ></button>
-                </div>
-                <div className="carousel-inner">
-                  {item.img.map((image, index) => (
-                    <div key={index} className="carousel-item active">
-                      <img src={image} alt={item.name} />
-                    </div>
-                  ))}
-                </div>
-                <button
-                  className="carousel-control-prev"
-                  type="button"
-                  data-bs-target="#carouselExampleIndicators"
-                  data-bs-slide="prev"
-                >
-                  <span
-                    className="carousel-control-prev-icon"
-                    aria-hidden="true"
-                  ></span>
-                  <span className="visually-hidden">Previous</span>
-                </button>
-                <button
-                  className="carousel-control-next"
-                  type="button"
-                  data-bs-target="#carouselExampleIndicators"
-                  data-bs-slide="next"
-                >
-                  <span
-                    className="carousel-control-next-icon"
-                    aria-hidden="true"
-                  ></span>
-                  <span className="visually-hidden">Next</span>
-                </button>
-              </div> */}
-            </div>
+            <Splide
+              options={{
+                breakpoints: {
+                  5000: {
+                    perPage: 1,
+                  },
+                },
+                arrows: true,
+                pagination: true,
+                drag: "free",
+                gap: "2rem",
+              }}
+            >
+              {item.img.map((image, index) => (
+                <SplideSlide key={index} className="food-img">
+                  <img src={image} alt={item.name} />
+                </SplideSlide>
+              ))}
+            </Splide>
+
             <p className="pt-3">{item.desc}</p>
           </div>
         ))}

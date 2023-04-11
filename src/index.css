@@ -83,6 +83,10 @@ body {
   object-fit: cover;
 }
 
+textarea {
+  resize: none;
+}
+
 @media only screen and (max-width: 1120px) {
   .header-img img {
     height: 500px;

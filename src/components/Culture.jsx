@@ -1,5 +1,5 @@
-import seyid from "../assets/homepage/seyid.jpg";
 import tekne from "../assets/homepage/tekne.jpg";
+import hamsi1 from "../assets/homepage/hamsi1.jpg";
 
 const Culture = () => {
   return (
@@ -58,12 +58,12 @@ const Culture = () => {
             </p>
           </div>
           <div className="col-12 col-sm-10 col-lg-5 home-img">
-            <img width="100%" src={tekne} alt="Model Ship" />
+            <img width="100%" src={hamsi1} alt="Model Ship" />
           </div>
         </div>
         <div className="d-flex flex-column flex-lg-row row align-items-center gap-4 px-2">
           <div className="col-12 col-sm-10 col-lg-6 home-img">
-            <img width="100%" src={seyid} alt="Seyyid Bilal Türbesi" />
+            <img width="100%" src={tekne} alt="Seyyid Bilal Türbesi" />
           </div>
           <div className="col-12 col-lg-5">
             <p>

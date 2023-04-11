@@ -4,7 +4,7 @@ import { GiKnifeFork, GiPerson } from "react-icons/gi";
 import { MdOutlineNaturePeople } from "react-icons/md";
 import { HiPhoto } from "react-icons/hi2";
 
-import hamsi from "../assets/food/hamsi.jpg";
+import hamsi from "../assets/food/hamsi2.jpg";
 import tatli from "../assets/food/hamursuztatli.png";
 import kabak from "../assets/food/kabakmille.png";
 import kestanepilav from "../assets/food/kestanepilavi.png";

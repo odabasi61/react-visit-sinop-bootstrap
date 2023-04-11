@@ -3,12 +3,19 @@ import sinop from "../assets/homepage/sinop.jpg";
 import data from "../helper/data";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
+import { AiOutlineArrowUp } from "react-icons/ai";
 
 const Header = () => {
   return (
     <div>
-      <div className="header-img">
+      <div className="header-img position-relative">
         <img width="100%" src={sinop} alt="Sinop landscape" />
+        <a
+          href="#"
+          className="position-fixed p-1 rounded-circle bg-primary text-white footer-arrow"
+        >
+          <AiOutlineArrowUp size={40} />
+        </a>
       </div>
       <div className="py-1 px-2 px-sm-3 px-md-4 px-lg-5 border-top border-bottom border-2 border-dark header-line">
         <Splide

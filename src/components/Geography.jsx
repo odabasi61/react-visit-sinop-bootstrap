@@ -18,15 +18,6 @@ const Geography = () => {
           harbor.
         </p>
         <p>
-          Sinop is located at the northernmost point of the Sinop Peninsula,
-          which is approximately 40 kilometers long and 12 kilometers wide at
-          its widest point. The city is situated between the Black Sea and the
-          mountains, which provides a unique and beautiful landscape. The city
-          is surrounded by mountains on three sides, which provide a natural
-          protection against the harsh weather conditions that are common in the
-          region.
-        </p>
-        <p>
           The climate in Sinop is characterized by mild winters and cool
           summers, which is typical of the Black Sea region. The city
           experiences a moderate amount of rainfall throughout the year, with

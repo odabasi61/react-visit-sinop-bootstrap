@@ -1,4 +1,6 @@
 import { food } from "../helper/data";
+import { Splide, SplideSlide } from "@splidejs/react-splide";
+import "@splidejs/react-splide/css";
 
 const Food = () => {
   return (
@@ -49,7 +51,7 @@ const Food = () => {
         </p>
       </div>
       <div className="d-flex flex-wrap gap-4 justify-content-center">
-        {food.map((item, index) => (
+        {/* {food.map((item, index) => (
           <div
             key={index}
             className="p-4 bg-white rounded-4 col-12 col-sm-10 col-md-5 col-xl-3"
@@ -58,6 +60,35 @@ const Food = () => {
             <div className="food-img">
               <img width="100%" src={item.img} alt={item.name} />
             </div>
+            <p className="pt-3">{item.desc}</p>
+          </div>
+        ))} */}
+        {food.map((item, index) => (
+          <div
+            key={index}
+            className="p-4 bg-white rounded-4 col-12 col-sm-10 col-md-5 col-xl-3"
+          >
+            <h4>{item.name}</h4>
+            <Splide
+              options={{
+                breakpoints: {
+                  5000: {
+                    perPage: 1,
+                  },
+                },
+                arrows: true,
+                pagination: true,
+                drag: "free",
+                gap: "2rem",
+              }}
+            >
+              {item.img.map((image, index) => (
+                <SplideSlide key={index} className="food-img">
+                  <img src={image} alt={item.name} />
+                </SplideSlide>
+              ))}
+            </Splide>
+
             <p className="pt-3">{item.desc}</p>
           </div>
         ))}

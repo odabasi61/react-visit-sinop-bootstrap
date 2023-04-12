@@ -13,7 +13,11 @@ import Privacy from "../pages/Privacy";
 import Support from "../pages/Support";
 import Places from "../pages/Places";
 import PlacesDetail from "../pages/PlacesDetail";
+import Tourism from '../pages/Tourism';
+import TourismDetail from '../pages/TourismDetail';
 import Notable from "../pages/Notable";
+import NotableHistorical from "../pages/NotableHistorical";
+import NotableContemporary from "../pages/NotableContemporary";
 
 const AppRouter = () => {
   return (
@@ -26,9 +30,14 @@ const AppRouter = () => {
           <Route path="accommodation/" element={<Accommodation />} />
           <Route path="activities/" element={<Activities />} />
           <Route path="food/" element={<Food />} />
-          <Route path="notable/" element={<Notable />} />
+          <Route path="/notable" element={<Notable />}>
+            <Route path="" element={<NotableHistorical />} />
+            <Route path="contemporary" element={<NotableContemporary />} />
+          </Route>
           <Route path="places/" element={<Places />} />
           <Route path="places/:id" element={<PlacesDetail />} />
+          <Route path="tourism" element={<Tourism />} />
+          <Route path="tourism/:id" element={<TourismDetail />} />
           <Route path="shopping/" element={<Shopping />} />
           <Route path="about/" element={<About />} />
           <Route path="contact/" element={<Contact />} />

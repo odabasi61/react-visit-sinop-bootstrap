@@ -49,12 +49,12 @@ const Geography = () => {
             </p>
           </div>
           <div className="col-12 col-sm-10 col-lg-5 home-img">
-            <img width="100%" src={winter} alt="Sinop in winter" />
+            <img src={winter} alt="Sinop in winter" />
           </div>
         </div>
         <div className="d-flex flex-column flex-lg-row row align-items-center gap-4 px-2">
           <div className="col-12 col-sm-10 col-lg-6 home-img">
-            <img width="100%" src={summer} alt="Sinop in summer" />
+            <img src={summer} alt="Sinop in summer" />
           </div>
           <div className="col-12 col-lg-5">
             <p>

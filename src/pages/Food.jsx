@@ -1,4 +1,4 @@
-import { food } from "../helper/data";
+import { food } from "../helper/food";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 
@@ -51,18 +51,6 @@ const Food = () => {
         </p>
       </div>
       <div className="d-flex flex-wrap gap-4 justify-content-center">
-        {/* {food.map((item, index) => (
-          <div
-            key={index}
-            className="p-4 bg-white rounded-4 col-12 col-sm-10 col-md-5 col-xl-3"
-          >
-            <h4>{item.name}</h4>
-            <div className="food-img">
-              <img width="100%" src={item.img} alt={item.name} />
-            </div>
-            <p className="pt-3">{item.desc}</p>
-          </div>
-        ))} */}
         {food.map((item, index) => (
           <div
             key={index}
@@ -83,7 +71,7 @@ const Food = () => {
               }}
             >
               {item.img.map((image, index) => (
-                <SplideSlide key={index} className="food-img">
+                <SplideSlide key={index} className="general-img">
                   <img src={image} alt={item.name} />
                 </SplideSlide>
               ))}

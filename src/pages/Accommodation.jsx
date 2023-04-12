@@ -1,4 +1,4 @@
-import { accommodation } from "../helper/data";
+import { accommodation } from "../helper/accomodation";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 
@@ -79,7 +79,7 @@ const Accommodation = () => {
       </div>
 
       <div className="p-2 bg-white rounded-2 mt-4 py-4">
-      <Splide
+        <Splide
           options={{
             breakpoints: {
               700: {
@@ -122,7 +122,7 @@ const Accommodation = () => {
               className="d-flex gap-4 justify-content-center"
             >
               <div className="accommodation-card">
-              <img src={item} alt="touristic accommodations" />
+                <img src={item} alt="touristic accommodations" />
               </div>
             </SplideSlide>
           ))}

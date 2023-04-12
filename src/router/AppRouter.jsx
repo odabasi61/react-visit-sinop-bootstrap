@@ -11,6 +11,8 @@ import About from "../pages/About";
 import Contact from "../pages/Contact";
 import Privacy from "../pages/Privacy";
 import Support from "../pages/Support";
+import Places from "../pages/Places";
+import PlacesDetail from "../pages/PlacesDetail";
 
 const AppRouter = () => {
   return (
@@ -23,6 +25,8 @@ const AppRouter = () => {
           <Route path="accommodation/" element={<Accommodation />} />
           <Route path="activities/" element={<Activities />} />
           <Route path="food/" element={<Food />} />
+          <Route path="places/" element={<Places />} />
+          <Route path="places/:id" element={<PlacesDetail />} />
           <Route path="shopping/" element={<Shopping />} />
           <Route path="about/" element={<About />} />
           <Route path="contact/" element={<Contact />} />

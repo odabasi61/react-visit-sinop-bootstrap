@@ -1,4 +1,4 @@
-import { shopping } from "../helper/data";
+import { shopping } from "../helper/shopping";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 
@@ -73,7 +73,7 @@ const Shopping = () => {
               }}
             >
               {item.img.map((image, index) => (
-                <SplideSlide key={index} className="food-img">
+                <SplideSlide key={index} className="general-img">
                   <img src={image} alt={item.name} />
                 </SplideSlide>
               ))}

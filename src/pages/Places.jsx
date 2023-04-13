@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import { places } from "../helper/places";
+import GoHome from "../components/GoHome";
 
 const Places = () => {
   const navigate = useNavigate();
@@ -36,6 +37,7 @@ const Places = () => {
           );
         })}
       </div>
+      <GoHome />
     </div>
   );
 };

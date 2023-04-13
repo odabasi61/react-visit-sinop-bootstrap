@@ -1,6 +1,7 @@
 import { accommodation } from "../helper/accomodation";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
+import GoHome from "../components/GoHome";
 
 const Accommodation = () => {
   return (
@@ -128,6 +129,7 @@ const Accommodation = () => {
           ))}
         </Splide>
       </div>
+      <GoHome />
     </div>
   );
 };

@@ -1,6 +1,7 @@
 import { shopping } from "../helper/shopping";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
+import GoHome from "../components/GoHome";
 
 const Shopping = () => {
   return (
@@ -83,6 +84,7 @@ const Shopping = () => {
           </div>
         ))}
       </div>
+      <GoHome />
     </div>
   );
 };

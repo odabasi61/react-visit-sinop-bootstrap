@@ -7,8 +7,6 @@ const PlacesDetail = () => {
 
   const { id } = useParams();
 
-  console.log(places);
-
   return (
     <div className="p-2 p-md-3 p-lg-4 p-xl-5">
       <h3 className="pb-4">{places[id - 1].name}</h3>

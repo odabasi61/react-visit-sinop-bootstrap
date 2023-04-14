@@ -1,7 +1,7 @@
 import plateau from "../assets/tourism/plateau.jpg";
-import camp from "../assets/photpgraphy/camp.jpg";
-import cave from "../assets/photpgraphy/inalti1.jpg";
-import sea from "../assets/photpgraphy/manzara10.jpg";
+import camp from "../assets/photography/camp.jpg";
+import cave from "../assets/photography/inalti1.jpg";
+import sea from "../assets/photography/manzara10.jpg";
 import faith from "../assets/tourism/faith.jpg";
 import cruise from "../assets/tourism/cruise.jpg";
 import culture from "../assets/tourism/culture.jpg";
@@ -10,9 +10,9 @@ import cruise1 from "../assets/tourism/cruise1.jpg";
 import cruise2 from "../assets/tourism/cruise2.jpg";
 import cruise3 from "../assets/tourism/cruise3.jpg";
 
-import camp1 from "../assets/photpgraphy/camp1.jpg";
-import camp2 from "../assets/photpgraphy/camp2.jpg";
-import camp3 from "../assets/photpgraphy/camp3.jpeg";
+import camp1 from "../assets/photography/camp1.jpg";
+import camp2 from "../assets/photography/camp2.jpg";
+import camp3 from "../assets/photography/camp3.jpeg";
 
 import plateau1 from "../assets/tourism/plateau1.png";
 import plateau2 from "../assets/tourism/plateau2.png";
@@ -26,11 +26,11 @@ import plateau9 from "../assets/tourism/plateau9.png";
 
 import sea1 from "../assets/tourism/sea1.png";
 import sea2 from "../assets/tourism/sea2.png";
-import sea3 from "../assets/photpgraphy/sarikum1.jpg";
-import sea4 from "../assets/photpgraphy/manzara8.jpg";
-import sea5 from "../assets/photpgraphy/manzara16.jpg";
-import sea6 from "../assets/photpgraphy/manzara11.jpg";
-import sea7 from "../assets/photpgraphy/manzara17.jpg";
+import sea3 from "../assets/photography/sarikum1.jpg";
+import sea4 from "../assets/photography/manzara8.jpg";
+import sea5 from "../assets/photography/manzara16.jpg";
+import sea6 from "../assets/photography/manzara11.jpg";
+import sea7 from "../assets/photography/manzara17.jpg";
 
 import culture1 from "../assets/tourism/culture1.jpg";
 import culture2 from "../assets/tourism/culture2.jpg";
@@ -48,13 +48,13 @@ import faith5 from "../assets/tourism/faith5.jpeg";
 import faith6 from "../assets/tourism/faith6.jpg";
 import faith7 from "../assets/tourism/faith7.jpg";
 
-import cave1 from "../assets/photpgraphy/inalti2.jpg";
-import cave2 from "../assets/photpgraphy/inalti3.jpg";
-import cave3 from "../assets/photpgraphy/inalti4.jpg";
-import cave4 from "../assets/photpgraphy/inalti6.jpg";
-import cave5 from "../assets/photpgraphy/inalti7.jpg";
-import cave6 from "../assets/photpgraphy/inalti8.jpg";
-import cave7 from "../assets/photpgraphy/inalti9.jpg";
+import cave1 from "../assets/photography/inalti2.jpg";
+import cave2 from "../assets/photography/inalti3.jpg";
+import cave3 from "../assets/photography/inalti4.jpg";
+import cave4 from "../assets/photography/inalti6.jpg";
+import cave5 from "../assets/photography/inalti7.jpg";
+import cave6 from "../assets/photography/inalti8.jpg";
+import cave7 from "../assets/photography/inalti9.jpg";
 
 export const tourism = [
   {

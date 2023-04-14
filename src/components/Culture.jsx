@@ -1,5 +1,5 @@
 import tekne from "../assets/homepage/tekne.jpg";
-import hamsi1 from "../assets/homepage/hamsi1.jpg";
+import hamsi1 from "../assets/food/hamsi1.jpg";
 
 const Culture = () => {
   return (

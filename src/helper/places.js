@@ -1,51 +1,51 @@
-import akgol1 from "../assets/places/akgöl1.jpg";
-import akgol2 from "../assets/places/akgöl2.jpg";
-import akgol3 from "../assets/places/akgöl3.jpg";
-import akgol4 from "../assets/places/akgöl4.jpg";
+import akgol1 from "../assets/photpgraphy/akgöl1.jpg";
+import akgol2 from "../assets/photpgraphy/akgöl2.jpg";
+import akgol3 from "../assets/photpgraphy/akgöl3.jpg";
+import akgol4 from "../assets/photpgraphy/akgöl4.jpg";
 import balatlar1 from "../assets/photpgraphy/balatlar1.jpg";
 import balatlar2 from "../assets/photpgraphy/balatlar2.jpg";
 import balatlar3 from "../assets/photpgraphy/balatlar3.jpg";
 import balatlar4 from "../assets/photpgraphy/balatlar4.jpg";
-import bazalt1 from "../assets/places/bazalt1.jpg";
-import bazalt2 from "../assets/places/bazalt2.jpg";
-import bazalt3 from "../assets/places/bazalt3.png";
-import bazalt4 from "../assets/places/bazalt4.png";
-import prison1 from "../assets/places/cezaevi1.jpg";
-import prison2 from "../assets/places/cezaevi2.jpg";
-import prison3 from "../assets/places/cezaevi4.jpg";
-import prison4 from "../assets/places/cezaevi6.jpg";
-import erfelek1 from "../assets/places/erfelek11.jpg";
-import erfelek2 from "../assets/places/erfelek21.jpg";
-import erfelek3 from "../assets/places/erfelek22.jpg";
-import erfelek4 from "../assets/places/erfelek9.jpg";
-import lighthouse1 from "../assets/places/fener11.jpg";
-import lighthouse2 from "../assets/places/fener2.jpg";
-import lighthouse3 from "../assets/places/fener3.jpg";
-import lighthouse4 from "../assets/places/fener8.jpg";
-import hamsilos1 from "../assets/places/hamsilos2.jpg";
-import hamsilos2 from "../assets/places/hamsilos3.jpg";
-import hamsilos3 from "../assets/places/hamsilos4.jpg";
-import hamsilos4 from "../assets/places/hamsilos5.jpg";
-import inalti1 from "../assets/places/inalti4.jpg";
-import inalti2 from "../assets/places/inalti5.jpg";
-import inalti3 from "../assets/places/inalti8.jpg";
-import inalti4 from "../assets/places/inalti9.jpg";
-import castle1 from "../assets/places/kale1.jpg";
-import castle2 from "../assets/places/kale3.jpg";
-import castle3 from "../assets/places/kale4.jpg";
-import castle4 from "../assets/places/kale5.jpg";
-import museum1 from "../assets/places/museum1.jpg";
-import museum2 from "../assets/places/museum2.jpg";
-import museum3 from "../assets/places/museum3.jpg";
-import museum4 from "../assets/places/museum4.jpg";
-import salar1 from "../assets/places/salar1.jpg";
-import salar2 from "../assets/places/salar2.jpg";
-import salar3 from "../assets/places/salar3.png";
-import salar4 from "../assets/places/salar4.jpg";
-import sarikum1 from "../assets/places/sarikum1.jpg";
-import sarikum2 from "../assets/places/sarikum2.png";
-import sarikum3 from "../assets/places/sarikum3.jpg";
-import sarikum4 from "../assets/places/sarikum4.jpg";
+import bazalt1 from "../assets/photpgraphy/bazalt1.jpg";
+import bazalt2 from "../assets/photpgraphy/bazalt2.jpg";
+import bazalt3 from "../assets/photpgraphy/bazalt3.png";
+import bazalt4 from "../assets/photpgraphy/bazalt4.png";
+import prison1 from "../assets/photpgraphy/cezaevi1.jpg";
+import prison2 from "../assets/photpgraphy/cezaevi2.jpg";
+import prison4 from "../assets/photpgraphy/cezaevi4.jpg";
+import prison6 from "../assets/photpgraphy/cezaevi6.jpg";
+import erfelek1 from "../assets/photpgraphy/erfelek11.jpg";
+import erfelek2 from "../assets/photpgraphy/erfelek21.jpg";
+import erfelek3 from "../assets/photpgraphy/erfelek22.jpg";
+import erfelek4 from "../assets/photpgraphy/erfelek9.jpg";
+import lighthouse1 from "../assets/photpgraphy/fener11.jpg";
+import lighthouse2 from "../assets/photpgraphy/fener2.jpg";
+import lighthouse3 from "../assets/photpgraphy/fener3.jpg";
+import lighthouse4 from "../assets/photpgraphy/fener8.jpg";
+import hamsilos1 from "../assets/photpgraphy/hamsilos2.jpg";
+import hamsilos2 from "../assets/photpgraphy/hamsilos3.jpg";
+import hamsilos3 from "../assets/photpgraphy/hamsilos4.jpg";
+import hamsilos4 from "../assets/photpgraphy/hamsilos5.jpg";
+import inalti1 from "../assets/photpgraphy/inalti4.jpg";
+import inalti2 from "../assets/photpgraphy/inalti5.jpg";
+import inalti3 from "../assets/photpgraphy/inalti8.jpg";
+import inalti4 from "../assets/photpgraphy/inalti9.jpg";
+import castle1 from "../assets/photpgraphy/kale1.jpg";
+import castle2 from "../assets/photpgraphy/kale3.jpg";
+import castle3 from "../assets/photpgraphy/kale4.jpg";
+import castle4 from "../assets/photpgraphy/kale5.jpg";
+import museum1 from "../assets/photpgraphy/museum1.jpg";
+import museum2 from "../assets/photpgraphy/museum2.jpg";
+import museum3 from "../assets/photpgraphy/museum3.jpg";
+import museum4 from "../assets/photpgraphy/museum4.jpg";
+import salar1 from "../assets/photpgraphy/salar1.jpg";
+import salar2 from "../assets/photpgraphy/salar2.jpg";
+import salar3 from "../assets/photpgraphy/salar3.png";
+import salar4 from "../assets/photpgraphy/salar4.jpg";
+import sarikum1 from "../assets/photpgraphy/sarikum1.jpg";
+import sarikum2 from "../assets/photpgraphy/sarikum2.png";
+import sarikum3 from "../assets/photpgraphy/sarikum3.jpg";
+import sarikum4 from "../assets/photpgraphy/sarikum4.jpg";
 
 export const places = [
   {
@@ -89,7 +89,7 @@ export const places = [
   },
   {
     id: 4,
-    img: [prison1, prison2, prison3, prison4],
+    img: [prison1, prison2, prison4, prison6],
     name: "Fortress Prison",
     desc1:
       "The Historic Prison of Sinop, also known as Sinop Fortress Prison, is an important historical site located in the city of Sinop, Turkey. The prison was built in the 19th century during the Ottoman Empire and served as a maximum-security prison for over 100 years. The prison was notorious for its harsh conditions and brutal treatment of prisoners, many of whom were political dissidents or members of minority groups. Today, the prison has been turned into a museum, providing visitors with a unique insight into the history of the region and the Turkish justice system.",

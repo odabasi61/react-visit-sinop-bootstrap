@@ -1,4 +1,4 @@
-import kale from "../assets/homepage/kale.jpg";
+import kale from "../assets/photpgraphy/kale5.jpg";
 import historic from "../assets/homepage/historic.jpg";
 
 const History = () => {

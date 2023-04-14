@@ -6,10 +6,10 @@ import bungalov1 from "../assets/accommodation/bungalo1.jpg";
 import bungalov2 from "../assets/accommodation/bungalo2.jpg";
 import bungalov3 from "../assets/accommodation/bungalo3.jpg";
 import bungalov4 from "../assets/accommodation/bungalo4.jpg";
-import camp1 from "../assets/accommodation/kamp1.jpg";
-import camp2 from "../assets/accommodation/kamp2.jpg";
-import camp3 from "../assets/accommodation/kamp3.jpeg";
-import camp4 from "../assets/accommodation/kamp4.jpg";
+import camp1 from "../assets/photpgraphy/camp.jpg"
+import camp2 from "../assets/photpgraphy/camp1.jpg";
+import camp3 from "../assets/photpgraphy/camp2.jpg";
+import camp4 from "../assets/photpgraphy/camp3.jpeg";
 
 export const accommodation = [
   hotel1,

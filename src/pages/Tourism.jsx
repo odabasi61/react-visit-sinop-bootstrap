@@ -1,13 +1,18 @@
+import { useNavigate } from "react-router-dom";
 import { tourism } from "../helper/tourism";
 import GoHome from "../components/GoHome";
 
 const Tourism = () => {
+  const navigate = useNavigate();
+
   return (
     <div className="p-2 p-md-3 p-lg-4 p-xl-5">
       <h3 className="pb-4">Tourism in Sinop</h3>
       <div className="p-4 bg-white rounded-2 d-flex flex-wrap justify-content-center gap-4">
         {tourism.map((tour, index) => (
           <div
+            type="button"
+            onClick={() => navigate(`/tourism/${tour.id}`)}
             key={index}
             className="tourism-cards position-relative rounded-4 overflow-hidden"
           >

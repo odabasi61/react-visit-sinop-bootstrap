@@ -1,6 +1,7 @@
+import GoBack from "../components/GoBack";
+import GoHome from "../components/GoHome";
 import { places } from "../helper/places";
 import { useNavigate, useParams } from "react-router-dom";
-import { AiOutlineArrowLeft, AiOutlineHome } from "react-icons/ai";
 
 const PlacesDetail = () => {
   const navigate = useNavigate();
@@ -48,18 +49,8 @@ const PlacesDetail = () => {
         </div>
       </div>
       <div className="d-flex justify-content-center gap-4 flex-wrap pt-4">
-        <button
-          onClick={() => navigate(-1)}
-          className="btn btn-warning d-flex align-items-center gap-1"
-        >
-          <AiOutlineArrowLeft /> Go Back
-        </button>
-        <button
-          onClick={() => navigate("/")}
-          className="btn btn-success d-flex align-items-center gap-1"
-        >
-          <AiOutlineHome /> Go Home
-        </button>
+        <GoBack />
+        <GoHome />
       </div>
     </div>
   );

@@ -12,7 +12,7 @@ const Header = () => {
         <img width="100%" src={sinop} alt="Sinop landscape" />
         <a
           href="#"
-          className="position-fixed p-1 rounded-circle bg-primary text-white footer-arrow"
+          className="position-fixed p-1 rounded-circle bg-success text-white footer-arrow"
         >
           <AiOutlineArrowUp size={40} />
         </a>

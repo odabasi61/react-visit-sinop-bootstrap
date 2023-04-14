@@ -49,7 +49,7 @@ body {
 }
 
 .footer-links:hover {
-  color: dodgerblue;
+  color: rgb(84, 174, 97);
 }
 
 .footer-icons {
@@ -59,7 +59,7 @@ body {
 
 .footer-icons:hover {
   transform: scale(1.05);
-  color: dodgerblue;
+  color: rgb(84, 174, 97);
 }
 
 .footer-arrow {
@@ -105,7 +105,8 @@ body {
   transform: rotateY(0);
 }
 
-.front-card, .back-card {
+.front-card,
+.back-card {
   box-shadow: rgba(11, 9, 9, 0.35) 0px 5px 15px;
   backface-visibility: hidden;
   transition: all 0.8s ease;
@@ -120,7 +121,6 @@ body {
   width: 100%;
   height: 350px;
   border-radius: 50%;
-
 }
 
 .place-card:hover .description {
@@ -133,6 +133,18 @@ body {
   background-color: rgb(255, 255, 255, 0.6);
   transform: translateY(100%);
   transition: transform 0.5s ease-in-out;
+}
+
+.tourism-cards {
+  width: 400px;
+  height: fit-content;
+  box-shadow: rgba(11, 9, 9, 0.35) 0px 5px 15px;
+}
+
+.tourism-cards img {
+  object-fit: cover;
+  width: 100%;
+  height: 400px;
 }
 
 textarea {

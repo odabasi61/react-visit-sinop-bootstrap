@@ -10,7 +10,7 @@ const GoHome = () => {
         onClick={() => navigate("/")}
         className="btn btn-success d-flex align-items-center gap-1"
       >
-        <AiOutlineHome /> Go Home
+        <AiOutlineHome /> Homepage
       </button>
     </div>
   );

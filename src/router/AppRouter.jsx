@@ -13,11 +13,12 @@ import Privacy from "../pages/Privacy";
 import Support from "../pages/Support";
 import Places from "../pages/Places";
 import PlacesDetail from "../pages/PlacesDetail";
-import Tourism from '../pages/Tourism';
-import TourismDetail from '../pages/TourismDetail';
+import Tourism from "../pages/Tourism";
+import TourismDetail from "../pages/TourismDetail";
 import Notable from "../pages/Notable";
 import NotableHistorical from "../pages/NotableHistorical";
 import NotableContemporary from "../pages/NotableContemporary";
+import Photo from "../pages/Photo";
 
 const AppRouter = () => {
   return (
@@ -34,6 +35,7 @@ const AppRouter = () => {
             <Route path="" element={<NotableHistorical />} />
             <Route path="contemporary" element={<NotableContemporary />} />
           </Route>
+          <Route path="photo/" element={<Photo />} />
           <Route path="places/" element={<Places />} />
           <Route path="places/:id" element={<PlacesDetail />} />
           <Route path="tourism" element={<Tourism />} />

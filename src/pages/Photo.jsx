@@ -1,7 +1,7 @@
-import { gallery } from '../helper/photo';
-import React, { useState, useEffect } from 'react';
-import { AiFillCloseCircle } from 'react-icons/ai';
-import { BsChevronLeft, BsChevronRight} from 'react-icons/bs';
+import { gallery } from "../helper/photo";
+import React, { useState, useEffect } from "react";
+import { AiFillCloseCircle } from "react-icons/ai";
+import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
 
 const Photo = () => {
   // const [shuffledImages, setShuffledImages] = useState(() => {
@@ -48,22 +48,36 @@ const Photo = () => {
 
   return (
     <div className="p-2 p-md-3 p-lg-4 p-xl-5">
-      <div className="p-2 bg-white rounded-2 d-flex flex-wrap justify-content-center gap-2">
+      <h3 className="pb-4">Beautiful Landscape Images From Sinop</h3>
+      <div className="px-2 py-5 bg-white rounded-2 d-flex flex-wrap justify-content-center gap-2">
         {gallery.map((photo, index) => (
           <div key={index}>
-            <div className='gallery-card rounded-4 overflow-hidden'>
-            <img onClick={() => handleImageClick(index)} src={photo} alt='beautiful landscape from Sinop' />
-          </div>
+            <div className="gallery-card rounded-4 overflow-hidden">
+              <img
+                onClick={() => handleImageClick(index)}
+                src={photo}
+                alt="beautiful landscape from Sinop"
+              />
+            </div>
           </div>
         ))}
       </div>
       {selectedImageIndex !== null && (
         <div className="modal">
           <div className="modal-content">
-            <img src={gallery[selectedImageIndex]} alt="beautiful landscape from Sinop" />
-            <button className='prev' onClick={handlePrevClick}><BsChevronLeft size={40} /></button>
-            <button className='next' onClick={handleNextClick}><BsChevronRight size={40} /></button>
-            <button className='close' onClick={handleCloseModal}><AiFillCloseCircle size={30} /></button>
+            <img
+              src={gallery[selectedImageIndex]}
+              alt="beautiful landscape from Sinop"
+            />
+            <button className="prev" onClick={handlePrevClick}>
+              <BsChevronLeft size={40} />
+            </button>
+            <button className="next" onClick={handleNextClick}>
+              <BsChevronRight size={40} />
+            </button>
+            <button className="close" onClick={handleCloseModal}>
+              <AiFillCloseCircle size={30} />
+            </button>
           </div>
         </div>
       )}

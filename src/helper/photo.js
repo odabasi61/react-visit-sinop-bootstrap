@@ -116,6 +116,8 @@ import tepe1 from "../assets/photography/tepe1.jpg";
 import tepe2 from "../assets/photography/tepe2.jpg";
 import village1 from "../assets/photography/village1.jpg";
 import village2 from "../assets/photography/village2.jpg";
+import village3 from "../assets/photography/village3.jpg";
+import village4 from "../assets/photography/village4.jpg";
 
 export const gallery = [
   akgol1,
@@ -236,6 +238,6 @@ export const gallery = [
   tepe2,
   village1,
   village2,
+  village3,
+  village4,
 ];
-
-

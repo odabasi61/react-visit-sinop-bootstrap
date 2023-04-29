@@ -3,13 +3,9 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <div>
-      <nav className="navbar bg-body-tertiary fixed-top bg-black">
+      <nav className="navbar bg-body-tertiary fixed-top">
         <div className="container-fluid px-4">
-          <Link
-            to={"/"}
-            className="navbar-brand text-white fs-4 fw-bold"
-            href="#"
-          >
+          <Link to={"/"} className="navbar-brand fs-4 fw-bold" href="#">
             Northern Star
           </Link>
 
@@ -17,7 +13,7 @@ const Navbar = () => {
             <li className="nav-item">
               <Link
                 to={"/"}
-                className="nav-link text-white"
+                className="nav-link fw-semibold"
                 aria-current="page"
                 href="#"
               >
@@ -25,17 +21,17 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-white" href="#history">
+              <a className="nav-link fw-semibold" href="#history">
                 History
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-white" href="#geography">
+              <a className="nav-link fw-semibold" href="#geography">
                 Geography
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-white" href="#culture">
+              <a className="nav-link fw-semibold" href="#culture">
                 Culture
               </a>
             </li>

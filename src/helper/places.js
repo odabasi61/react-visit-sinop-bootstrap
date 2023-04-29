@@ -43,7 +43,7 @@ import salar2 from "../assets/photography/salar2.jpg";
 import salar3 from "../assets/photography/salar3.png";
 import salar4 from "../assets/photography/salar4.jpg";
 import sarikum1 from "../assets/photography/sarikum1.jpg";
-import sarikum2 from "../assets/photography/sarikum2.png";
+import sarikum2 from "../assets/photography/sarikum2.jpg";
 import sarikum3 from "../assets/photography/sarikum3.jpg";
 import sarikum4 from "../assets/photography/sarikum4.jpg";
 

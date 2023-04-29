@@ -9,7 +9,8 @@ html {
   scroll-padding-top: 60px;
 }
 
-body {
+body,
+.navbar {
   background-color: gainsboro;
 }
 
@@ -163,7 +164,8 @@ body {
   height: 200px;
 }
 
-.picture-card:hover, .gallery-card:hover {
+.picture-card:hover,
+.gallery-card:hover {
   transform: scale(1.15);
 }
 
@@ -186,11 +188,13 @@ body {
 
 .modal-content img {
   width: 100%;
- height: 100%;
+  height: 100%;
 }
 
-.prev, .next, .close {
-position: absolute;
+.prev,
+.next,
+.close {
+  position: absolute;
   top: 50%;
   transform: translateY(-50%);
   border-radius: 50%;
